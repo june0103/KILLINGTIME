@@ -1,0 +1,54 @@
+/* header */
+
+/* 게시판 read */
+dl, ul, li, ol, menu {list-style: none;}
+
+/* h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+} */
+h3 {
+  margin-top: 20px;
+
+}
+#board_read {
+	width:900px;
+	position: relative;
+	word-break:break-all;
+}
+#user_info {
+	font-size:14px;
+}
+#user_info ul li {
+	float:left;
+	margin-left:10px;
+}
+#bo_line {
+	width:900px;
+	height:2px;
+	background: gray;
+	margin-top:3px;
+}
+#bo_content {
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+#bo_ser {
+	font-size:14px;
+	color:#333;
+	position: absolute;
+	right: 0;
+}
+#bo_ser > ul > li {
+	margin-top: 10px;
+	float:left;
+	margin-left:10px;
+}
+#post-info{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#post-info a:link  {color: #4aa8d4;  text-decoration: none;  }
+#post-info a:visited  {color:#4aa8d4;    text-decoration: none;  }
+#post-info a:hover {color:#4aa8d4;}

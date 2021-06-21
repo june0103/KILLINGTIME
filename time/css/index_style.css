@@ -1,0 +1,48 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+.container
+{
+	font-family: 'McLaren', cursive;
+  width: 990px;
+  margin: 0 auto;
+  height: inherit;
+  background: #fff;
+}
+
+
+.cont {overflow: hidden; padding-top:30px;}
+.cont .column {float: left; width: 200px; height: 363px;
+margin: 0 30px 30px 0; padding-right: 30px; }
+.cont .col1 {border-right: 1px solid #c8c8c8;}
+.cont .col2 {border-right: 1px solid #c8c8c8;}
+.cont .col3 {margin-right: 0; padding-right: 0;}
+.cont .col4 {border-right: 1px solid #c8c8c8; height: 570px;}
+.cont .col5 {margin-right: 0; padding-right: 0; height:570px;}
+.cont .column .ico_img {display: block; width: 60px; height: 60px;
+background: url(../../time_humor.png) no-repeat ;}
+.cont .column .ico_tit {font-size: 16px; color:#2c94c4;}
+.cont .column .ico_desc {border-bottom: 1px solid #d0d0d0; padding-bottom: 15px; margin-bottom: 15px;}
+
+.ssul {position: relative;}
+.ssul h4 {}
+.ssul ul {}
+.ssul ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.ssul ul li a {font-size: 14px;}
+.ssul ul li a:link  {color: black;  text-decoration: none;  }
+.ssul ul li a:visited  {color:black;    text-decoration: none;  }
+.ssul ul li a:hover {color:#4aa8d4;}
+.ssul a.more {position: absolute; right: 0; top: 0; font-size: 8px; color: #2c94c4;}
+.ssul a.more:hover {color:red;}
+
+.ssul ol {}
+.ssul ol li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.ssul ol li a {font-size: 14px;}
+.ssul ol li a:link  {color: black;  text-decoration: none;  }
+.ssul ol li a:visited  {color:black;    text-decoration: none;  }
+.ssul ol li a:hover {color:#4aa8d4;}
+
+.ah_l ul li a:link  {color: black;  text-decoration: none;  }
+ul li a:visited  {color:black;    text-decoration: none;  }
+ul li a:hover {color:#4aa8d4;}
