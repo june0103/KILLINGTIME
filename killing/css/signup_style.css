@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* 전체 옵션 */
+* {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Malgun gothic','Sans-Serif','Arial';
+}
+h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+a {
+	text-decoration: none;
+	color:#333;
+}
+ul li {
+	list-style:none;
+}
+
+/* 공통 */
+.fl {
+	float:left;
+}
+.tc {
+	text-align:center;
+}
+#id_check
+{
+	font-size: 10px;
+}
+
+/* 게시판 목록 */
+#signup_area {
+	width: 600px;
+	position: relative;
+}
+.list-table {
+	margin-top: 40px;
+}
+
+ .list-table tbody td{
+	text-align:left;
+	padding:10px 0;
+	font-size: 14px
+  border-collapse:collapse;
+}
+
+.button{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom:  20px;
+
+}
+#write_btn {
+	position: absolute;
+	margin-top:20px;
+	margin-right: 20px;
+	right: 0;
+	margin-bottom: 20px;
+}
